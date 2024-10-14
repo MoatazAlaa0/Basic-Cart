@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <div class="container  main bg-white shadow my-5">
+        <div class="row ">
+            <div class="col-md-6  text-center py-5 my-5">
+                <div class="right-part">
+                    <h1 class="mb-3 mt-4">Sign In</h1>
+                    <div class="d-flex align-items-center justify-content-center mb-2 ">
+                        <div class="style-i d-flex align-items-center justify-content-center me-2 ">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="style-i d-flex align-items-center justify-content-center me-2 ">
+                            <i class="fa-brands fa-google"></i>
+                        </div>
+                        <div class="style-i d-flex align-items-center justify-content-center me-2 ">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                        <div class="style-i d-flex align-items-center justify-content-center me-2 ">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+
+
+                    </div>
+                    <p>or use your email and password</p>
+                    <form action="" class="px-3">
+                        <div class="position-relative">
+                            <input oninput="validateUser(this)" type="text" class=" form-control"  id="userEmailLogin" placeholder="Email adress">
+                            <label for="userEmailLogin"></label>
+                            <i  class=" fa-solid fa-envelope position-absolute top-0 end-0 m-2 p-1"></i>
+                        </div>
+
+                        <div class="position-relative">
+                            <input oninput="validateUser(this)" type="password" class="form-control" id="userPasswordLogin" placeholder="Password">
+                            <label for="userPasswordLogin"></label>
+                            
+
+                                <i  class="fa-solid fa-eye-slash position-absolute top-0 end-0 m-2 p-1"></i>
+                                <i  class="fa-solid fa-eye d-none position-absolute top-0 end-0 m-2 p-1"></i>
+                            
+
+                        </div>
+
+                        
+                        
+                        <div class="alert alert-danger py-1  d-none alert-Fileds ">
+                            <small>Please fill all the fileds</small>
+                        </div>
+                        <div class="alert alert-danger py-1  d-none alert-check ">
+                            <small>In correct email or password</small>
+                        </div>
+                    </form>
+                </div>
+                <p>Forget password?</p>
+                <button id="buttonSignIn" class=" mb-4 btn">SIGN IN</button>
+            </div>
+            <div class="col-md-6 text-center  text-white my-bg d-flex align-items-center justify-content-center shadow ">
+                <div class="left-part">
+                    <h1 class="mb-3">Hello,Friend!</h1>
+                    <p class="mb-3 ">Register with your Personal details to use all <br> of site features</p>
+                    <button id="buttonSignUpForRegister" class="btn my-btn">SIGN UP</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script  src="Js/index.js"></script>
+    <script type = "text/javascript" >
+        function preventBack() { window.history.forward(); }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="">
+
+
+
+    <header>
+        <nav>
+            <nav class="navbar bg-black fixed-top z-3">
+                <div class="container-fluid">
+                    <div class="d-flex align-items-center">
+                        <a class="navbar-brand fs-3 me-1 fw-medium text-white " >Hello</a>
+                        <div class="d-flex align-items-center">
+                            <div id="userNameDisplay" class="text-white fw-medium fs-3 "></div>
+                            <h1 class="fs-3">👋</h1>
+                        </div>
+                    </div>
+
+
+                    <button id="buttonLogout" class="btn " type="submit">Logout</button>
+
+                </div>
+            </nav>
+        </nav>
+    </header>
+
+    <main>
+        <section class="my-5 pt-5">
+            <div class="container ">
+                <div class="row">
+                    <h1 class="text-center mb-4 text-white">All Products</h1>
+
+                    <div class="col-md-4 mb-4">
+                        <figure class="card h-100 shadow-sm" data-id="1" data-name="Samsung Qled TV"
+                            data-img="Images/037fe7a5-3c4d-4fc1-9cf7-90f80d7eb2bc.webp" data-price="500">
+                            <img src="Images/037fe7a5-3c4d-4fc1-9cf7-90f80d7eb2bc.webp" class="w-100 object-fit-cover"
+                                alt="Samsung QLED TV">
+                            <figcaption class="text-center mt-3 px-2">
+                                <h5>Samsung Qled TV</h5>
+                                <h6 class="fw-medium text-success">$1200</h6>
+                                <button class="btn Add mt-2 px-4 ">Add To Cart</button>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <figure class="card h-100 shadow-sm" data-id="2" data-name="Apple Smart Watch"
+                            data-img="Images/1082bef4-a040-468d-8985-f74259952cb8.webp" data-price="1500">
+                            <img src="Images/1082bef4-a040-468d-8985-f74259952cb8.webp" class="w-100 object-fit-cover"
+                                alt="Apple Smart Watch">
+                            <figcaption class="text-center mt-3 px-2">
+                                <h5>Apple Smart Watch</h5>
+                                <h6 class="fw-medium text-success">$1500</h6>
+                                <button  class="btn Add mt-2 px-4">Add To Cart</button>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <figure class="card h-100 shadow-sm" data-id="3" data-name="Iphone 16 pro Max"
+                            data-img="Images/15d9ed10-223b-4505-9cb8-82551e5d28db.webp" data-price="950">
+                            <img src="Images/15d9ed10-223b-4505-9cb8-82551e5d28db.webp" class="w-100 object-fit-cover"
+                                alt="Iphone 16 pro Max">
+                            <figcaption class="text-center mt-3 px-2">
+                                <h5>Iphone 16 pro Max</h5>
+                                <h6 class="fw-medium text-success">$950</h6>
+                                <button class="btn Add mt-2 px-4">Add To Cart</button>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <figure class="card h-100 shadow-sm" data-id="4" data-name="LG 4K UHD TV"
+                            data-img="Images/2bb6df64-1313-4dcc-8976-d37617356762.webp" data-price="600">
+                            <img src="Images/2bb6df64-1313-4dcc-8976-d37617356762.webp" class="w-100 object-fit-cover"
+                                alt="LG 4K UHD TV">
+                            <figcaption class="text-center mt-3 px-2">
+                                <h5>LG 4K UHD TV</h5>
+                                <h6 class="fw-medium text-success">$600</h6>
+                                <button class="btn Add mt-2 px-4">Add To Cart</button>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <figure class="card h-100 shadow-sm" data-id="5" data-name="Sony Smart Watch"
+                            data-img="Images/68e26e20-9312-497e-80e0-e5f067078478.webp" data-price="750">
+                            <img src="Images/68e26e20-9312-497e-80e0-e5f067078478.webp" class="w-100 object-fit-cover"
+                                alt="Sony Smart Watch">
+                            <figcaption class="text-center mt-3 px-2">
+                                <h5>Sony Smart Watch</h5>
+                                <h6 class="fw-medium text-success">$750</h6>
+                                <button class="btn Add mt-2 px-4">Add To Cart</button>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <figure class="card h-100 shadow-sm" data-id="6" data-name="Samsung F12"
+                            data-img="Images/82e7d5f7-3ac2-4a65-ba41-95f58ad763fb.webp" data-price="500">
+                            <img src="Images/82e7d5f7-3ac2-4a65-ba41-95f58ad763fb.webp" class="w-100 object-fit-cover"
+                                alt="Samsung F12">
+                            <figcaption class="text-center mt-3 px-2">
+                                <h5>Samsung F12</h5>
+                                <h6 class="fw-medium text-success">$500</h6>
+                                <button class="btn Add mt-2 px-4">Add To Cart</button>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <div class=" d-flex align-items-center justify-content-center  cart">
+        <i class="fa-solid fa-cart-shopping fa-flip-horizontal fs-5"></i>
+        <div class="position-absolute d-flex align-items-center justify-content-center all-item translate-middle badge  ">
+            0
+        </div>
+    </div>
+    <div id="alert" class="alert hidden">Product added to cart!</div>
+
+
+
+    <script src="Js/cart.js"></script>
+    <script type="text/javascript">
+        function preventBack() { window.history.forward(); }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+        
+    </script>
+</body>
+
+</html>

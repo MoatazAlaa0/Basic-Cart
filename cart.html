@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="">
+    <header>
+        <nav>
+            <nav class="navbar bg-black fixed-top z-3">
+                <div class="container-fluid">
+                    <div class="d-flex align-items-center " style="cursor: pointer;">
+                        <a class="navbar-brand fs-3 me-1 fw-medium text-white back-home ">Home Page</a>
+                      
+                    </div>
+
+
+
+                </div>
+            </nav>
+        </nav>
+    </header>
+    <main>
+        <section>
+
+            <div class="container my-5 pt-5">
+                <h2 class="text-center text-white mb-4">Shopping Cart</h2>
+        
+                <div class="">
+                    <div id="cart-items" class=" row ">
+        
+        
+        
+                    </div>
+                </div>
+                <div class="col-12 bg-white p-2 mt-3 main-price">
+                    <h3 id="total-price" class=" text-black p-0 m-0"> Total cart Price : $0</h3>
+                </div>
+        
+        
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+    <script src="Js/cart.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            initCart()
+        });
+    </script>
+
+</body>
+
+</html>
